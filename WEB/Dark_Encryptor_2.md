@@ -4,7 +4,7 @@ Start the machine below and access the web app at `http://MACHINE_IP:5000`.
 ---
 
 - To encrypt files, the website uses the `gpg` tool (we know this from the response file extension)
-[](img/2025-03-25 23_28_13-DarkMatter Encryptor - Brave.png)
+![](img/2025-03-25 23_28_13-DarkMatter Encryptor - Brave.png)
 
 - The website is vulnerable to command injection into the `recipient`
 - the website first check if the recipient is a one from the list. so in malicious command we should use recipient like Cipher or another from list Then use `;` to separate it from our command.
