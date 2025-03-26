@@ -12,18 +12,16 @@ Start the machine below and access the web app at `http://MACHINE_IP:5000`.
 - we can use burp suite to edit recipient input.
 - Before send the payload, you need to set up a `Netcat listener` to receive the exfiltrated data.
 
-
-
-![[2025-03-25 23_55_52-kali-linux-2024.4-vmware-amd64 - VMware Workstation.png]]
+![](https://github.com/zakaria-mghili/writeups_HackfinityBattle_2025/blob/0ebb78b6b2e667d523042972fb80f7b9afb7274a/img/2025-03-25%2023_55_52-kali-linux-2024.4-vmware-amd64%20-%20VMware%20Workstation.png)
 
 >response 
 
-![[2025-03-26 00_01_17-kali-linux-2024.4-vmware-amd64 - VMware Workstation.png]]
+![](https://github.com/zakaria-mghili/writeups_HackfinityBattle_2025/blob/0ebb78b6b2e667d523042972fb80f7b9afb7274a/img/2025-03-26%2000_01_17-kali-linux-2024.4-vmware-amd64%20-%20VMware%20Workstation.png)
 > the exploitation is work and , we find the flag file , now we need just to `cat` content of flag file
 
-![[2025-03-26 00_04_09-kali-linux-2024.4-vmware-amd64 - VMware Workstation.png]]
+![](https://github.com/zakaria-mghili/writeups_HackfinityBattle_2025/blob/0ebb78b6b2e667d523042972fb80f7b9afb7274a/img/2025-03-26%2000_04_09-kali-linux-2024.4-vmware-amd64%20-%20VMware%20Workstation.png)
 
-![[2025-03-26 00_05_32-kali-linux-2024.4-vmware-amd64 - VMware Workstation.png]]
+![](https://github.com/zakaria-mghili/writeups_HackfinityBattle_2025/blob/0ebb78b6b2e667d523042972fb80f7b9afb7274a/img/2025-03-26%2000_05_32-kali-linux-2024.4-vmware-amd64%20-%20VMware%20Workstation.png)
 
 
 
